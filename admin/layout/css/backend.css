@@ -1,0 +1,140 @@
+body{
+    background: url("../images/gym.jpg");
+    background-size: cover;
+    padding-top: 0px !important;
+}
+.line-blue {
+    height: 3px;
+    background-color: #004080;
+    width: 100%;
+}
+.Passanger-txt {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 22px;
+    color: #000080;
+    font-family: Arial;
+}
+.text-label {
+    font-size: 22px !important;
+    font-family: 'arial' !important;
+    color: #000080 !important;
+    /* margin-left: 11px; */
+    font-weight: 500 !important;
+    text-transform: none !important;
+}
+.line-red {
+    height: 3px;
+    background-color: #fe0000;
+    width: 100%;
+}
+.line-black {
+    height: 3px;
+    background-color: #0d0d0d;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* start login form */
+
+.login{
+    width: 300px;
+    margin:100px auto;
+}
+.login input{
+    margin-bottom: 10px;
+    border: none;
+}
+.login .form-control{
+    background-color: #e6e6e6;
+}
+.login .btn{
+    background-color: #3761bd;
+}
+
+.login h4{
+    margin-bottom: 20px;
+    color: #3761bd;
+    font-family: fantasy;
+    font-size: 30px;
+}
+/* end login form */
+/* start home page*/
+.paid .paided1,.paid .paided2,.paid .all{
+    border: 1px solid #dedede;
+    height: 130px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    font-size: 35px;
+
+}
+h1,h5,label{
+    color:#fff;
+}
+.paid .paided1{
+    background-color: #3498db;
+}
+.paid .all{
+    background-color: #f39c12;
+}
+.paid .paided2{
+    background-color: #c0392b;
+}
+.home-stats h1{
+    margin-bottom: 20px;
+}
+.paid span a
+{
+    color: #fff;
+}
+.paid span a:hover
+{
+   text-decoration: none;
+}
+.paid .btn-success
+{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 11px 0 11px 0;
+}
+.paid .years{
+    margin-top: 20px;
+}
+.paid .years a{
+    text-decoration: none;
+}
+.paid .years h5,.paid .info h5{
+    text-align: left !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.paid .years h5 i{
+    font-size: 14px;
+}
+.paid .info{
+    margin-top: 20px;
+}
+.paid .info span{
+    font-size: 18px;
+    display: block;
+    background: gainsboro;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
+.paid .info span h3 {
+    font-size: 16px;
+    display: inline-block;
+    background: #af291b;
+    padding: 4px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
